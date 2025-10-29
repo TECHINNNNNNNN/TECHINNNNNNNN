@@ -13,7 +13,7 @@
 
 I'm a **third-year Information and Communication Engineering student** at Chulalongkorn University with a passion for building **AI-powered production applications** that solve real problems. Former Chonburi Football Academy athlete who traded the field for the terminal—now I build systems that scale.
 
-- 🚀 Currently: **Head of Frontend** @ [QuantCU Learning Platform](https://github.com/QuantCU) (serving 1000+ participants)
+- 🚀 Currently: **Frontend Developer** @ [QuantCU Learning Platform](https://github.com/QuantCU) (serving 1000+ participants)
 - 🔭 Building: AI-powered tools with **OpenAI GPT-4**, real-time multiplayer systems, and full-stack web apps
 - 💡 I ship: **4 production apps** live on the web ([see below](#-featured-projects))
 - 🌱 Learning: Advanced system design, WebSocket architectures, and AI agent frameworks
