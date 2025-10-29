@@ -1,9 +1,11 @@
 <div align="center">
 
-<!-- Animated Typing Header -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=667EEA&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=Hi+%F0%9F%91%8B%2C+I'm+Techin+Chompooborisuth;Full-Stack+Developer+%7C+AI+Enthusiast+%7C+Building+Production+Apps" alt="Typing SVG" />
+<!-- Custom Animated Header -->
+<img width="100%" src="./github-header.svg" alt="Techin Chompooborisuth - Full-Stack Developer & AI Engineer" />
 
 </div>
+
+<br>
 
 ---
 
@@ -11,7 +13,7 @@
 
 I'm a **third-year Information and Communication Engineering student** at Chulalongkorn University with a passion for building **AI-powered production applications** that solve real problems. Former Chonburi Football Academy athlete who traded the field for the terminal—now I build systems that scale.
 
-- 🚀 Currently: **Frontend Developer** @ [QuantCU Learning Platform](https://github.com/QuantCU) (serving 1000+ participants)
+- 🚀 Currently: **Head of Frontend** @ [QuantCU Learning Platform](https://github.com/QuantCU) (serving 1000+ participants)
 - 🔭 Building: AI-powered tools with **OpenAI GPT-4**, real-time multiplayer systems, and full-stack web apps
 - 💡 I ship: **4 production apps** live on the web ([see below](#-featured-projects))
 - 🌱 Learning: Advanced system design, WebSocket architectures, and AI agent frameworks
