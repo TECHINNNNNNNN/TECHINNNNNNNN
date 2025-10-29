@@ -2,7 +2,7 @@
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
-        @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&amp;display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&amp;family=Clash+Display:wght@700&amp;family=Syne:wght@700&amp;display=swap');
 
         @keyframes subtleGradient {
           0%, 100% {
@@ -24,6 +24,52 @@
           }
         }
 
+        @keyframes backgroundFlow {
+          0% {
+            background-position: 0% 50%;
+          }
+          50% {
+            background-position: 100% 50%;
+          }
+          100% {
+            background-position: 0% 50%;
+          }
+        }
+
+        @keyframes cometFall1 {
+          0% {
+            transform: translate(-100px, -100px) rotate(-45deg);
+            opacity: 0;
+          }
+          10% {
+            opacity: 0.6;
+          }
+          90% {
+            opacity: 0.3;
+          }
+          100% {
+            transform: translate(1300px, 400px) rotate(-45deg);
+            opacity: 0;
+          }
+        }
+
+        @keyframes cometFall2 {
+          0% {
+            transform: translate(-150px, -80px) rotate(-50deg);
+            opacity: 0;
+          }
+          15% {
+            opacity: 0.5;
+          }
+          85% {
+            opacity: 0.2;
+          }
+          100% {
+            transform: translate(1350px, 420px) rotate(-50deg);
+            opacity: 0;
+          }
+        }
+
         .container {
           width: 100%;
           height: 300px;
@@ -31,25 +77,60 @@
           flex-direction: column;
           align-items: center;
           justify-content: center;
-          background: linear-gradient(135deg, #0a0e27 0%, #1a1d3a 100%);
+          background: linear-gradient(
+            135deg,
+            #0a0e27 0%,
+            #14182e 20%,
+            #1a1d3a 40%,
+            #0d1130 60%,
+            #14182e 80%,
+            #0a0e27 100%
+          );
+          background-size: 300% 300%;
+          animation: backgroundFlow 15s ease infinite;
           font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
           position: relative;
           overflow: hidden;
         }
 
+        .comet {
+          position: absolute;
+          width: 200px;
+          height: 2px;
+          background: linear-gradient(90deg,
+            transparent 0%,
+            rgba(102, 126, 234, 0.3) 20%,
+            rgba(118, 75, 162, 0.6) 50%,
+            rgba(240, 147, 251, 0.8) 80%,
+            rgba(255, 255, 255, 0.9) 100%
+          );
+          box-shadow: 0 0 20px rgba(118, 75, 162, 0.5);
+          transform-origin: right center;
+        }
+
+        .comet1 {
+          animation: cometFall1 12s ease-in-out infinite;
+          animation-delay: 2s;
+        }
+
+        .comet2 {
+          animation: cometFall2 15s ease-in-out infinite;
+          animation-delay: 7s;
+        }
+
         .name {
           font-size: 64px;
           font-weight: 700;
-          background: linear-gradient(120deg, #ffffff 0%, #a8b2ff 50%, #ffffff 100%);
+          font-family: 'Syne', 'Space Grotesk', sans-serif;
+          background: linear-gradient(120deg, #ffffff 0%, #c7d0ff 30%, #a8b2ff 50%, #c7d0ff 70%, #ffffff 100%);
           background-size: 200% auto;
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
           background-clip: text;
-          animation: subtleGradient 8s ease infinite;
+          animation: subtleGradient 8s ease infinite, fadeInUp 0.8s ease-out;
           margin: 0;
           padding: 10px 0;
-          letter-spacing: -1px;
-          animation: fadeInUp 0.8s ease-out;
+          letter-spacing: -1.5px;
         }
 
         .divider {
