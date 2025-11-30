@@ -96,7 +96,6 @@ Scaled platform serving **1000+ participants** across 25 quant finance lessons
 - ⚡ **70% less JavaScript** via Astro islands architecture
 - 🎨 4-layer progress visualization system
 
-**Role:** Head of Frontend Team
 
 </td>
 <td width="50%">
