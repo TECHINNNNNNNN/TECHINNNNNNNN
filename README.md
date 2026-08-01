@@ -10,7 +10,7 @@
 <p><samp>and since you're here, the part most profiles won't say out loud: next is a master's abroad (mcgill is the plan i'm working toward), a look at silicon valley with my own eyes — and then home. the goal hasn't moved since the football pitch: build things that make thailand better, whether that's companies, public work, or something i haven't named yet. that's why the last node up there has no label.</samp></p>
 
 <!-- pulse starts -->
-<p><samp>last shipped: "tokenizer study: unigram beats bpe 12/12, optimum 8k; r…" → saphagpt · 3d ago · this line rewrote itself at 10:29 bangkok time</samp></p>
+<p><samp>last shipped: "tokenizer study: unigram beats bpe 12/12, optimum 8k; r…" → saphagpt · 3d ago · this line rewrote itself at 10:44 bangkok time</samp></p>
 <!-- pulse ends -->
 
 <p><samp>(yes, that line rewrites itself hourly — <a href="status/build.mjs">one small script</a>, zero dependencies. the art is <a href="art/ascent-dark.svg">hand-built svg</a>, animated in pure css.)</samp></p>
