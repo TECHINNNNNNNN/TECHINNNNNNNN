@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 300" width="830" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" role="img" aria-labelledby="t d">
+<title id="t">the line is still climbing</title>
+<desc id="d">A football bounces three times, then becomes the head of a rising line that draws itself up over a hand-drawn Bangkok skyline, passing lit checkpoints — chulalongkorn, chula wise, LINE MAN Wongnai — toward an unlabeled next node, its glowing tip still climbing. City windows keep twinkling.</desc>
+<style>
+:root{}
+.draw{stroke-dasharray:1;stroke-dashoffset:1;animation:draw 2.8s cubic-bezier(.4,0,.2,1) both}
+.b1{animation-delay:.2s}.b2{animation-delay:.5s}.b3{animation-delay:.8s}.b4{animation-delay:1s}.b5{animation-delay:1.3s}.b6{animation-delay:1.5s}.b7{animation-delay:1.8s}.b8{animation-delay:2s}.b9{animation-delay:2.2s}
+.line{stroke-dasharray:1;stroke-dashoffset:1;animation:draw 3.6s cubic-bezier(.55,.05,.35,1) 2.2s both}
+.win{opacity:0;animation:lit .5s ease-out both}
+.w1{animation-delay:2.4s}.w2{animation-delay:2.7s}.w3{animation-delay:3s}.w4{animation-delay:3.3s}.w5{animation-delay:3.6s}.w6{animation-delay:3.9s}
+.tw{animation:twinkle 3.1s ease-in-out 4.5s infinite alternate}
+.tw2{animation-duration:2.3s;animation-delay:5.1s}
+.tw3{animation-duration:3.7s;animation-delay:4.8s}
+.node{opacity:0;animation:pop .45s cubic-bezier(.2,1.4,.4,1) both}
+.n1{animation-delay:3.4s}.n2{animation-delay:4.2s}.n3{animation-delay:5s}.n4{animation-delay:5.7s}
+.lbl{opacity:0;animation:lit .6s ease-out both}
+.l1{animation-delay:3.6s}.l2{animation-delay:4.4s}.l3{animation-delay:5.2s}.l4{animation-delay:5.9s}
+.head{opacity:0;animation:lit .4s ease-out 5.8s both}
+.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2.6s ease-out 6s infinite}
+.future{stroke-dasharray:3 5;opacity:0;animation:lit .8s ease-out 6.2s both,crawl 1.6s linear 6.2s infinite}
+.star{animation:twinkle 4s ease-in-out infinite alternate}
+.s2{animation-duration:5.2s;animation-delay:1.2s}
+.s3{animation-duration:3.4s;animation-delay:2.1s}
+.ball-fade{animation:fade .6s ease-out 2.5s both}
+@keyframes draw{to{stroke-dashoffset:0}}
+@keyframes lit{from{opacity:0}to{opacity:1}}
+@keyframes fade{to{opacity:0}}
+@keyframes pop{from{opacity:0;transform:scale(.4)}to{opacity:1;transform:scale(1)}}
+@keyframes twinkle{from{opacity:.25}to{opacity:.95}}
+@keyframes pulse{0%{transform:scale(1);opacity:.5}70%{transform:scale(3.2);opacity:0}100%{transform:scale(3.2);opacity:0}}
+@keyframes crawl{to{stroke-dashoffset:-8}}
+@media (prefers-reduced-motion: reduce){*{animation:none !important}.win,.node,.lbl,.head,.future{opacity:1}.draw,.line{stroke-dasharray:none;stroke-dashoffset:0}.ball-fade{opacity:0}}
+</style>
+
+<defs>
+  <linearGradient id="rise" x1="0" y1="1" x2="1" y2="0">
+    <stop offset="0" stop-color="#3fb950"/>
+    <stop offset="1" stop-color="#79c0ff"/>
+  </linearGradient>
+  <filter id="soft" x="-80%" y="-80%" width="260%" height="260%">
+    <feGaussianBlur stdDeviation="1.6"/>
+  </filter>
+</defs>
+
+<rect width="830" height="300" fill="#0d1117"/>
+
+<!-- stars -->
+<circle class="star" cx="120" cy="46" r="1.3" fill="#8b949e"/>
+<circle class="star s2" cx="415" cy="30" r="1.1" fill="#8b949e"/>
+<circle class="star s3" cx="700" cy="52" r="1.4" fill="#8b949e"/>
+
+<!-- ground -->
+<path class="draw b1" pathLength="1" d="M22,250 H808" stroke="#30363d" stroke-width="1.5" fill="none"/>
+
+<!-- skyline, left to right (stroke line-art) -->
+<path class="draw b2" pathLength="1" d="M60,250 V160 H100 V250" stroke="#30363d" stroke-width="1.5" fill="none"/>
+<path class="draw b3" pathLength="1" d="M118,250 V118 H150 V250 M134,118 V84" stroke="#30363d" stroke-width="1.5" fill="none"/>
+<path class="draw b4" pathLength="1" d="M170,250 V180 H228 V250" stroke="#30363d" stroke-width="1.5" fill="none"/>
+<path class="draw b5" pathLength="1" d="M250,250 V128 H262 V116 H274 V128 H286 V140 H298 V152 H310 V250" stroke="#30363d" stroke-width="1.5" fill="none"/>
+<path class="draw b6" pathLength="1" d="M330,250 V186 H382 V250" stroke="#30363d" stroke-width="1.5" fill="none"/>
+<path class="draw b7" pathLength="1" d="M404,250 L420,196 L426,208 L436,148 L446,208 L452,196 L468,250" stroke="#30363d" stroke-width="1.5" fill="none"/>
+<path class="draw b8" pathLength="1" d="M490,250 V174 H544 V250 M504,174 V158 H530 V174" stroke="#30363d" stroke-width="1.5" fill="none"/>
+<path class="draw b9" pathLength="1" d="M566,250 V196 H640 V250 M580,196 V182 H626 V196" stroke="#30363d" stroke-width="1.5" fill="none"/>
+<path class="draw b9" pathLength="1" d="M662,250 V206 H720 V250 M676,206 V190 H705 V206 M736,250 V216 H784 V250" stroke="#30363d" stroke-width="1.5" fill="none"/>
+
+<!-- windows -->
+<g fill="#d29922">
+  <rect class="win w1" x="70" y="176" width="4" height="6"/>
+  <rect class="win w3 tw" x="84" y="196" width="4" height="6"/>
+  <rect class="win w2" x="126" y="136" width="4" height="6"/>
+  <rect class="win w4 tw2" x="138" y="162" width="4" height="6"/>
+  <rect class="win w3" x="182" y="194" width="4" height="6"/>
+  <rect class="win w5 tw3" x="206" y="214" width="4" height="6"/>
+  <rect class="win w2" x="262" y="150" width="4" height="6"/>
+  <rect class="win w4 tw" x="278" y="182" width="4" height="6"/>
+  <rect class="win w6" x="344" y="200" width="4" height="6"/>
+  <rect class="win w3 tw2" x="364" y="222" width="4" height="6"/>
+  <rect class="win w5" x="432" y="182" width="4" height="6"/>
+  <rect class="win w4" x="506" y="190" width="4" height="6"/>
+  <rect class="win w6 tw3" x="524" y="214" width="4" height="6"/>
+  <rect class="win w5" x="592" y="212" width="4" height="6"/>
+  <rect class="win w6 tw" x="612" y="228" width="4" height="6"/>
+  <rect class="win w4" x="686" y="220" width="4" height="6"/>
+  <rect class="win w6 tw2" x="754" y="228" width="4" height="6"/>
+</g>
+
+<!-- the football: three diminishing bounces, then it becomes the line -->
+<g class="ball-fade">
+  <path class="draw b1" pathLength="1" d="M28,248 Q40,214 52,248 Q62,226 72,248 Q80,238 88,248 Q95,243 102,247" stroke="#8b949e" stroke-width="1" stroke-dasharray="2 3" fill="none"/>
+  <circle r="4" fill="#e6edf3">
+    <animateMotion dur="1.7s" begin="0.4s" fill="freeze" path="M28,248 Q40,214 52,248 Q62,226 72,248 Q80,238 88,248 Q95,243 102,247" calcMode="linear"/>
+  </circle>
+</g>
+
+<!-- the rising line -->
+<path class="line" pathLength="1" d="M102,247 C 200,240 260,214 330,190 C 420,159 520,132 610,104 C 680,82 740,64 792,44" stroke="url(#rise)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+<!-- checkpoints -->
+<g>
+  <circle class="node n1" cx="300" cy="200" r="4" fill="#0d1117" stroke="#3fb950" stroke-width="2"/>
+  <text class="lbl l1" x="300" y="222" text-anchor="middle" font-size="11" fill="#8b949e">chulalongkorn</text>
+  <circle class="node n2" cx="470" cy="147" r="4" fill="#0d1117" stroke="#3fb950" stroke-width="2"/>
+  <text class="lbl l2" x="470" y="132" text-anchor="middle" font-size="11" fill="#8b949e">chula wise</text>
+  <circle class="node n3" cx="610" cy="104" r="4" fill="#0d1117" stroke="#79c0ff" stroke-width="2"/>
+  <text class="lbl l3" x="610" y="89" text-anchor="middle" font-size="11" fill="#e6edf3">LINE MAN Wongnai</text>
+  <circle class="node n4" cx="726" cy="68" r="4" fill="#0d1117" stroke="#8b949e" stroke-width="1.5" stroke-dasharray="2 2"/>
+  <text class="lbl l4" x="726" y="53" text-anchor="middle" font-size="11" fill="#8b949e" opacity="0.8">next</text>
+</g>
+
+<!-- the climbing head -->
+<g class="head">
+  <circle class="pulse" cx="792" cy="44" r="5" fill="none" stroke="#79c0ff" stroke-width="1.5"/>
+  <circle cx="792" cy="44" r="4.5" fill="#79c0ff" filter="url(#soft)"/>
+  <circle cx="792" cy="44" r="3" fill="#e6edf3"/>
+</g>
+<path class="future" d="M792,44 L826,31" stroke="#79c0ff" stroke-width="1.5" fill="none"/>
+</svg>

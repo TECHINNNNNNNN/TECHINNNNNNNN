@@ -1,162 +1,28 @@
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="art/ascent-light.svg" />
+  <img src="art/ascent-dark.svg" width="830" alt="hand-drawn animation: a football bounces three times, then becomes a rising line drawn over the bangkok skyline, passing lit checkpoints — chulalongkorn, chula wise, LINE MAN Wongnai — toward an unlabeled node called next, its glowing tip still climbing while the city's windows keep twinkling." />
+</picture>
 
-<!-- Custom Animated Header -->
-<img width="100%" src="./github-header.svg" alt="Techin Chompooborisuth - Full-Stack Developer & AI Engineer" />
+<p><samp>hi, i'm boom. i'm a fourth-year engineering student at chulalongkorn university, and i spent this summer as a software engineer intern at <b>LINE MAN Wongnai</b> — there is code i wrote running in the back office their food-operations teams use every day, and that feeling is exactly why i do this. before that i helped rebuild <b>chula wise</b>, my university's alumni mentorship platform, on a student team supervised by skooldio.</samp></p>
 
-</div>
+<p><samp>the picture above is the honest version of my story. it starts on a football pitch, and it has been climbing ever since — the injury that ended the first dream is the reason i work the way i do on this one.</samp></p>
 
-<br>
+<p><samp>and since you're here, the part most profiles won't say out loud: next is a master's abroad (mcgill is the plan i'm working toward), a look at silicon valley with my own eyes — and then home. the goal hasn't moved since the football pitch: build things that make thailand better, whether that's companies, public work, or something i haven't named yet. that's why the last node up there has no label.</samp></p>
 
----
+<!-- pulse starts -->
+<p><samp>last shipped: "tokenizer study: unigram beats bpe 12/12, optimum 8k; r…" → saphagpt · 3d ago · this line rewrote itself at 10:29 bangkok time</samp></p>
+<!-- pulse ends -->
 
-### 👨‍💻 About Me
-
-I'm a **third-year Information and Communication Engineering student** at Chulalongkorn University with a passion for building **AI-powered production applications** that solve real problems. Former Chonburi Football Academy athlete who traded the field for the terminal—now I build systems that scale.
-
-- 🚀 Currently: **Frontend Developer** @ [QuantCU Learning Platform](https://github.com/QuantCU) (serving 1000+ participants)
-- 🔭 Building: AI-powered tools with **OpenAI GPT-4**, real-time multiplayer systems, and full-stack web apps
-- 💡 I ship: **4 production apps** live on the web ([see below](#-featured-projects))
-- 🌱 Learning: Advanced system design, WebSocket architectures, and AI agent frameworks
-- 💼 **Open to full-time opportunities** in software engineering
-
----
-
-### 🛠️ Tech Stack
-
-<div align="center">
-
-**Frontend**
-
-[![My Skills](https://skillicons.dev/icons?i=react,nextjs,typescript,tailwindcss,html,css)](https://skillicons.dev)
-
-**Backend & Database**
-
-[![My Skills](https://skillicons.dev/icons?i=nodejs,express,postgresql,prisma,redis,supabase)](https://skillicons.dev)
-
-**AI/ML & Python**
-
-[![My Skills](https://skillicons.dev/icons?i=python,tensorflow,pytorch)](https://skillicons.dev)
-
-**Tools & DevOps**
-
-[![My Skills](https://skillicons.dev/icons?i=docker,git,aws,vercel,github)](https://skillicons.dev)
-
-</div>
-
----
-
-### 🚀 Featured Projects
-
-<table>
-<tr>
-<td width="50%">
-
-#### 🎙️ [SoundByte](https://sound-byte-kappa.vercel.app)
-
-AI-powered podcast generation system with **multi-speaker synthesis**
-
-**Tech:** React 19 • Node.js • OpenAI GPT-4 • Google Cloud TTS • PostgreSQL • Redis
-
-- 🤖 Intelligent tool-calling to autonomously research news via Perplexity API
-- 🎵 Audio pipeline with crossfade transitions and S3 storage
-- 💰 Redis caching reducing API costs by 70%
-- 💳 Stripe payments + timezone-aware scheduler
-
-**[Live Demo ↗](https://sound-byte-kappa.vercel.app)**
-
-</td>
-<td width="50%">
-
-#### ⚡ [Manit AI](https://manit-lac.vercel.app)
-
-Deploy AI-generated websites in **<30 seconds** from text to live URL
-
-**Tech:** Next.js 15 • TypeScript • tRPC • OpenAI GPT-4 • E2B Sandboxes • GitHub API
-
-- 🚀 Generated **150+ sites** at **98% uptime**
-- 🔒 E2B containerized sandboxes for secure code validation
-- 🤖 Automated GitHub Pages deployment with zero manual intervention
-- ⚙️ Type-safe APIs with tRPC
-
-**[Live Demo ↗](https://manit-lac.vercel.app)**
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-#### 🎓 QuantCU Learning Platform
-
-Scaled platform serving **1000+ participants** across 25 quant finance lessons
-
-**Tech:** Astro 5.14 • React 19 • TypeScript 5 • Tailwind CSS 4
-
-- 👥 Serving **300+ Discord members** in 5 specialized paths
-- 🗺️ Dependency graph with O(1) lookup using Maps
-- ⚡ **70% less JavaScript** via Astro islands architecture
-- 🎨 4-layer progress visualization system
-
-
-</td>
-<td width="50%">
-
-#### 🎹 [DupMe](https://dupme.live)
-
-Real-time multiplayer musical memory game with **<50ms latency**
-
-**Tech:** Next.js • TypeScript • Socket.io • Web Audio API • PostgreSQL • Docker
-
-- 🎮 Coordinates **2-12 concurrent players** with WebSocket
-- 🎵 Web Audio API synthesis with **ADSR envelopes** and **±5ms precision**
-- 🏗️ Production architecture on Fly.io with optimized queries (**<100ms**)
-- 🖼️ Image compression keeping avatars <900KB
-
-**[Play Live ↗](https://dupme.live)**
-
-</td>
-</tr>
-</table>
-
----
-
-### 📊 GitHub Stats
+<p><samp>(yes, that line rewrites itself hourly — <a href="status/build.mjs">one small script</a>, zero dependencies. the art is <a href="art/ascent-dark.svg">hand-built svg</a>, animated in pure css.)</samp></p>
 
 <details>
-<summary><b>📈 Click to expand stats</b></summary>
+<summary><samp>$ cat story.log --verbose</samp></summary>
 <br>
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=TECHINNNNNNNN&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=667eea&icon_color=764ba2&text_color=c9d1d9"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TECHINNNNNNNN&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=667eea&text_color=c9d1d9"/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=TECHINNNNNNNN&theme=tokyonight&hide_border=true&background=0d1117&stroke=667eea&ring=764ba2&fire=f093fb&currStreakLabel=764ba2" alt="GitHub Streak" />
-
-</div>
-
+<p><samp>age 10: signed to chonburi fc academy with one dream. an injury ended it. started over from zero — failed the first math test after leaving the sport — and earned a seat at chulalongkorn engineering (ICE, class of 2027).</samp></p>
+<p><samp>spring 2026, chula wise (champ chula): full-stack developer on the student team that rebuilt chulalongkorn's alumni mentorship platform, supervised by skooldio — react, nestjs, gcp firestore, 139 merged commits, including the mentee-approval and admin-management workflows.</samp></p>
+<p><samp>summer 2026, LINE MAN Wongnai (sally squad, food): built and shipped a deeplink generator (vue 3) that marketing, operations, and engineering adopted as their single source of truth · fixed a cross-squad go coupon-service bug, turning 3–4 working days of manual constraint entry into one upload across 90–100 campaigns/month · eliminated a silently failing upload with mongodb dual-write sync · guardrail validation in the reward service · unit tests on every shipped function + api acceptance tests, 10–15 MRs through senior review, beta → qa → uat.</samp></p>
 </details>
 
----
+<p><samp>everything pinned below is live. click around.</samp></p>
 
-### 🤝 Connect With Me
-
-<div align="center">
-
-[![Email](https://img.shields.io/badge/Email-chompooborisuthtechin%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:chompooborisuthtechin@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Techin_Chompooborisuth-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/techin-chompooborisuth-396b19268)
-[![Portfolio](https://img.shields.io/badge/Portfolio-techinboom.com-667eea?style=for-the-badge&logo=google-chrome&logoColor=white)](https://techinboom.com)
-[![GitHub](https://img.shields.io/badge/GitHub-TECHINNNNNNNN-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/TECHINNNNNNNN)
-
-<img src="https://komarev.com/ghpvc/?username=TECHINNNNNNNN&label=Profile%20Views&color=667eea&style=for-the-badge" alt="Profile Views" />
-
-</div>
-
----
-
-<div align="center">
-
-### 💭 "From the football field to the terminal—building systems that scale."
-
-**🌟 Open to full-time opportunities | Let's build something amazing together!**
-
-</div>
+<p><samp><a href="https://techinboom.com">techinboom.com</a> · <a href="https://www.linkedin.com/in/techinchompoo">linkedin</a> · <a href="mailto:chompooborisuthtechin@gmail.com">email</a></samp></p>
