@@ -10,7 +10,7 @@
 <p><samp>and since you're here, the part most profiles won't say out loud: next is a master's abroad (mcgill is the plan i'm working toward), a look at silicon valley with my own eyes — and then home. the goal hasn't moved since the football pitch: build things that make thailand better, whether that's companies, public work, or something i haven't named yet. that's why the last node up there has no label.</samp></p>
 
 <!-- pulse starts -->
-<p><samp>heads down building · this line rewrote itself at 03:57 bangkok time</samp></p>
+<p><samp>heads down building · this line rewrote itself at 07:00 bangkok time</samp></p>
 <!-- pulse ends -->
 
 
